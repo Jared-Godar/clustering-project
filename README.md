@@ -69,9 +69,9 @@ A home is often the most expensiver purchase one makes in their lifetime. Having
 
 You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook. 
 - [x] Read this README.md.
-- [ ] Download the `zillo_aquire.py`, `zillo_prepare.py`, and `zillo_project_report.ipynb` files into your working directory.
+- [ ] Download the `aquire.py`, `prepare.py`, and `clustering_report.ipynb` files into your working directory.
 - [ ] Add your own `env` file to your directory. (user, password, host).
-- [ ] Run the `zillo_project_report.ipynb` workbook.
+- [ ] Run the `clustering_report.ipynb` workbook.
 
 
 ---
