@@ -1,6 +1,8 @@
 # regression-project
 The repsitory contains the files for Jared Godar's Codeup project on clustering and modeling of zillo real estate data to predict error estimates
 
+---
+
 ## About the Project
 
 ### Project Goals
@@ -19,6 +21,8 @@ It will incolve pulling relavant data from a SQL database; cleaning that data; s
 
 A home is often the most expensiver purchase one makes in their lifetime. Having a good handle on pricing is essential for both buyers and sellers. An accurate pricing model factoring in the properties of similar homes will allow for appropriate prices to be set as well as the alility to identify under and overvalued homes. By determining drivers of error in our models, we can develop strategies to improve the models.
 
+---
+
 ### Initial Questions
 
 - What are the main drivers of estimate error?
@@ -33,7 +37,7 @@ A home is often the most expensiver purchase one makes in their lifetime. Having
 - Which model feature is most important for this data and business case?
 - Which model evaluation metrics are most sensitive to this primary feature?
 
-### Data Dictionary
+---
 
 ## Data Dictionary
 
@@ -59,6 +63,7 @@ ____
 </br>
 </br>
 
+---
 
 ### Steps to Reproduce
 
@@ -69,7 +74,7 @@ You will need your own env file with database credentials along with all the nec
 - [ ] Run the `zillo_project_report.ipynb` workbook.
 
 
-
+---
 
 ### The Plan
 
@@ -107,6 +112,8 @@ You will need your own env file with database credentials along with all the nec
         - What can be done to improve this model?
         - What does this error model tell us about the estimate model?
         - How can these results inform 0
+
+---
 
 ### Key Findings
 
