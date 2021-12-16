@@ -44,8 +44,8 @@ A home is often the most expensiver purchase one makes in their lifetime. Having
 |Target|Datatype|Definition|
 |:-------|:--------|:----------|
 | error | float64 | error in estimate (in dollars?)|
-
-____
+</br>
+</br>
 | variable  |     Dtype    | Definition |
 |:----------|:-----------------------|:-----------|
 |bedrooms    | float64 | Number of bedrooms |
