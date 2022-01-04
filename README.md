@@ -1,5 +1,5 @@
-# regression-project
-The repsitory contains the files for Jared Godar's Codeup project on clustering and modeling of zillo real estate data to predict error estimates
+# classification-project
+The repository contains the files for Jared Godar's Codeup project on clustering and modeling of zillo real estate data to predict error estimates
 
 ---
 
@@ -11,22 +11,22 @@ The main goal of this project is to be able to accurately predict the Zillow Zes
 
 This will be accomplished by using past using property data from transactions of single family homes in 2017 and clustering of data to build at least four models, evaluating the effectiveness of each model, and testing the best model on new data is has never seen.
 
-The ability to accurately value a home is essential for both buyers and sellers. The ability of us to predict error in zestimates will allow us to determine the major drivers of error then imporve our estimates accordingly. Having the most accutate estimates possible is at the core of our business. 
+The ability to accurately value a home is essential for both buyers and sellers. The ability of us to predict error in zestimates will allow us to determine the major drivers of error then improve our estimates accordingly. Having the most accurate estimates possible is at the core of our business. 
 
 ### Project Description
 
-This project provides the opportunity to create and evaluate multiple predictive models as well as implement other essential parts of the data science pipeline includind data cleaning, imputing nulls, and clustering data to look for trends in subgroups.
+This project provides the opportunity to create and evaluate multiple predictive models as well as implement other essential parts of the data science pipeline including data cleaning, imputing nulls, and clustering data to look for trends in subgroups.
 
-It will incolve pulling relavant data from a SQL database; cleaning that data; splitting the data into training, validation, and test sets; scaling data; feature engineering; exploratory data analysis; clustering; modeling; model evaluation; model testing; and effectively communicating findings in written and oral formats.
+It will involve pulling relevant data from a SQL database; cleaning that data; splitting the data into training, validation, and test sets; scaling data; feature engineering; exploratory data analysis; clustering; modeling; model evaluation; model testing; and effectively communicating findings in written and oral formats.
 
-A home is often the most expensiver purchase one makes in their lifetime. Having a good handle on pricing is essential for both buyers and sellers. An accurate pricing model factoring in the properties of similar homes will allow for appropriate prices to be set as well as the alility to identify under and overvalued homes. By determining drivers of error in our models, we can develop strategies to improve the models.
+A home is often the most expensive purchase one makes in their lifetime. Having a good handle on pricing is essential for both buyers and sellers. An accurate pricing model factoring in the properties of similar homes will allow for appropriate prices to be set as well as the ability to identify under and overvalued homes. By determining drivers of error in our models, we can develop strategies to improve the models.
 
 ---
 
 ### Initial Questions
 
 - What are the main drivers of estimate error?
-- What are the relative importances of the assorted drivers?
+- What are the relative importance of the assorted drivers?
 - What factors reduce error?
 - What factors don't matter?
 - Are there any other potentially useful features that can be engineered from the current data available?
@@ -69,7 +69,7 @@ A home is often the most expensiver purchase one makes in their lifetime. Having
 
 You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook. 
 - [x] Read this README.md.
-- [ ] Download the `aquire.py`, `prepare.py`, and `clustering_report.ipynb` files into your working directory.
+- [ ] Download the `acquire.py`, `prepare.py`, and `clustering_report.ipynb` files into your working directory.
 - [ ] Add your own `env` file to your directory. (user, password, host).
 - [ ] Run the `clustering_report.ipynb` workbook.
 
@@ -81,7 +81,7 @@ You will need your own env file with database credentials along with all the nec
 ![story map](clustering_story_map.jpg)
 
 1. **Acquire, clean, prepare, and split the data:**
-    - Pull from zillo database.
+    - Pull from Zillo database.
     - Eliminate any unnecessary or redundant fields.
     - Engineer new, potentially informative features.
     - Search for null values and respond appropriately (delete, impute, etc.).
@@ -89,19 +89,19 @@ You will need your own env file with database credentials along with all the nec
     - Scale data appropriately.
     - Divide the data in to training, validation, and testing sets (~50-30-20 splits)
 2. **Exploratory data analysis:**
-    - Visualize pairwaise relationships looking for correlation with home value.
+    - Visualize pairwise relationships looking for correlation with home value.
     - Note any interesting correlations or other findings.
     - Test presumptive relationships for statistical significance.
     - Think of what features would be most useful for model.
     - Employ clustering to look for relationships between specific sub-groups.
-    - Record any other interesng observations or findings.
+    - Record any other interesting observations or findings.
     *NOTE: This data analysis will be limited to the training dataset*
 3. **Model generation, assessment, and optimization:**
     - Establish baseline performance (mean model error, assuming error is normally distributed).
     - Generate a basic regression model using only strongest drivers.
     - Calculate evaluation metrics to assess quality of models (RMSE, R^2, and p as primary metrics).
     - Generate additional models incorporating other existing fields.
-    - Use k-best and resursive feature selection to determine features.
+    - Use k-best and recursive feature selection to determine features.
     - Engineer additional features to use in other models.
     - Evaluate ensemble of better models on validation data to look for overfitting.
     - Select the highest performing model.
