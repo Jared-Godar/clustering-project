@@ -1,4 +1,4 @@
-# regression-project
+# classification-project
 The repsitory contains the files for Jared Godar's Codeup project on clustering and modeling of zillo real estate data to predict error estimates
 
 ---
